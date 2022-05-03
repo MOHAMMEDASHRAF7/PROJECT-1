@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Message Sharing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+    
+     <div>
+        <header>
+           <p style="position: fixed; top:80px; width:100%; text-align: center"> <b>CREATED BY : MOHAMMED ASHRAF TAJ</b></p>
+       </header>
+    </div>
+    
+    <div class="para1">
+        <h1><i> Message Sharing App</h1></i>
+        <p><i>This will help you to share a secret message to your friends through a link</p>
+        <p>Type your message and Click On "Create" Button to get generated link</i></p>
+
+    </div>
+
+    <div id="msg-link" class="hide">
+        <h2 id="final"></h2>
+        <div>
+            <a href="./index.html"><p id="link1">Create Your Own Website</p></a>
+        </div>
+
+    </div>
+
+    <div class="para2" id="sec-msg">
+        <div class="subpara1">
+            <form action="">
+                <label for="">Enter Secret Message </label><br>
+                <input type="text" id="msg-input" placeholder="Enter Message "/> <br><br>
+                <button type="submit" id="btn1">Create Link</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="para3" id="link">
+           <div class="subpara2">
+                 <h2><i>Share these link with your friends</h2></i>
+                 <input type="text" id="link-input">
+                 <button id="copy">copy</button>
+           </div>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
